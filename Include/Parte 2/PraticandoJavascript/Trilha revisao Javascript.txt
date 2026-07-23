@@ -1,0 +1,35 @@
+REVISÃO JAVASCRIPT EM 4 TÓPICOS 
+
+Introdução: Variáveis e Strings em JavaScript
+    Declaração de Variáveis (var, let e const)
+
+
+
+
+
+
+    
+TÓPICO 1: Condicionais e Controle de Fluxo.
+    Todo if é um detector de verdades ele avalia se algo é Verdadeiro (true) ou Falso (false).
+    Estruturas if(){}, else if(){} e else{}
+    
+    O else funciona como default como ultima opção se nenhuma das condicionais anterios funcionar
+    
+    Operadores Relacionais
+    Operadores de Comparação (==, ===, !=, !==)
+    Operadores Lógicos (&&, ||, !)
+    Operador Ternário if/else compacto em linha: const resultado = (condição) ? "Se Verdadeiro" : "Se Falso";
+    Switch Case
+
+
+
+
+
+
+
+
+
+
+TÓPICO 2: Funções, Retornos e Callbacks.
+TÓPICO 3: Arrays e Métodos de Iteração.
+TÓPICO 4: Objetos e Manipulação de Dados Complexos.

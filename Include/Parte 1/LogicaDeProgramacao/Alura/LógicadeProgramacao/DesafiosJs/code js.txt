@@ -1,0 +1,30 @@
+alert('Boas Vindas ao jogo do número secreto'); /'mostra notificação na tela'/
+let numeroSecreto = 2;
+let chute = prompt('Escolha um número entre 1 e 10');
+console.log('Valor do chute:', chute);
+
+console.log(numeroSecreto)
+console.log('Resultado da comparação:', chute == numeroSecreto);
+
+if(chute == numeroSecreto){
+    console.log(`Voce descobriu o número secreto ${numeroSecreto}`); // uso da crase (` `)
+    alert(`Voce descobriu o número secreto ${numeroSecreto}`);
+    alert('Voce descobriu o número secreto ' + numeroSecreto );
+}else{
+    console.log('Errou o número Secreto');
+    alert('Errou o número Secreto');
+    console.log('Valor do número secreto:', numeroSecreto);
+    alert('O número secreto era ' + numeroSecreto);
+}
+alert('Estou aprendendo JavaScript');
+
+let nomeUsuario = prompt('Digite seu nome: ');
+let idadeUsuario = prompt('Digite sua idade: ');
+
+let temPao = prompt('Você tem pão em casa? Responda com sim ou não');
+
+if (temPao === 'sim') { 
+    alert('Fazer sanduíche'); 
+} else { 
+    alert('Fazer miojo'); 
+}
