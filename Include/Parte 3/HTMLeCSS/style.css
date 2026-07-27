@@ -1,9 +1,17 @@
-body {
-    background-color: black;
-    color: #F6F6F6; 
+* {
+    margin: 0;
+    padding: 0;
 }
 
-strong {
+body {
+    height: 100vh;
+    background-color: black;
+    color: #F6F6F6; 
+
+    box-sizing: border-box;
+}
+
+.titulo-destaque {
     color: #22D4FD;
 }
 
