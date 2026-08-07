@@ -7,12 +7,12 @@ header {
     align-items: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
- 
+
 nav {
     display: flex;
     gap: 20px;
 }
- 
+
 nav a {
     color: white;
     text-decoration: none;
@@ -21,12 +21,12 @@ nav a {
     border-radius: 4px;
     transition: 0.3s;
 }
- 
+
 nav a:hover {
     background-color: #34495e;
     color: #3498db;
 }
- 
+
 nav a.ativo {
     background-color: #3498db;
     color: white;
