@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: black;
     color: #F6F6F6; 
 
@@ -53,6 +53,9 @@ body {
 }
 
 .apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 280px;
     text-align: center;
     border-radius: 8px;
@@ -64,6 +67,18 @@ body {
     color: #f6f6f6;
 }
 
+.apresentacao__links__link:hover{
+    background-color: #272727;
+}
+
+.rodape {
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD ;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
 .titulo-destaque {
     color: #22D4FD;
 }
